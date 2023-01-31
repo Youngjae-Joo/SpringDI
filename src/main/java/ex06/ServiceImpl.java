@@ -8,6 +8,13 @@ public class ServiceImpl {
 	private DAO dao;
 	
 	
+	
+	public ServiceImpl() {
+		
+	}
+
+
+
 	public String hello() {
 		return dao.hello();
 	}

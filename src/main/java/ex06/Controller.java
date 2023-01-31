@@ -11,8 +11,14 @@ public class Controller {
 	
 	@Autowired
 	private ServiceImpl serviceImpl;
+
 	
-	
+	public Controller() {
+		
+	}
+
+
+
 	public void hello() {
 		System.out.println(serviceImpl.hello());
 	}
